@@ -102,9 +102,3 @@ PATH=$PATH:/snap/clion/97/bin
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
-
-export CLINIQ_PORT=3000
-export CLINIQ_MASTERKEY="Tz1nruYQQbztovicyeiIT6VJ1heDw0Ga"
-export CLINIQ_IV="k8a0c93b572jelsq"
-export CLINIQ_SALT="2r5u8x/A?D(G+KbPeSgVkYp3s6v9y\$B&"
-#export CLINIQ_MASTERKEY="y/B?E(H+MbQeThWmZq3t6w9z$C&F)J@N"
