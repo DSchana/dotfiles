@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="~/dschana/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -102,3 +102,9 @@ PATH=$PATH:/snap/clion/97/bin
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+alias python="python3"
+alias pip="pip3"
+
+export ANDROID_SDK_ROOT=~/Library/Android/sdk
+export PATH=$ANDROID_SDK_ROOT/emulator:$HOME/.poetry/bin:$PATH
