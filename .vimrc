@@ -6,7 +6,7 @@ call plug#begin('~/.vim/plugged')
 " Make sure you use single quotes
 
 " Activity Watch plugin
-Plug 'ActivityWatch/aw-watcher-vim'
+"Plug 'ActivityWatch/aw-watcher-vim'
 
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
 Plug 'junegunn/vim-easy-align'
@@ -30,6 +30,7 @@ set nu
 set ruler
 
 highlight LineNr ctermfg=grey
+highlight Normal ctermfg=grey ctermbg=none
 
 set expandtab
 set shiftwidth=2
