@@ -106,5 +106,6 @@ export PATH="$PATH:$HOME/.rvm/bin"
 alias python="python3"
 alias pip="pip3"
 
-export ANDROID_SDK_ROOT=~/Library/Android/sdk
-export PATH=$ANDROID_SDK_ROOT/emulator:$HOME/.poetry/bin:$PATH
+export PATH=$PATH:/opt/homebrew/bin
+eval "$(starship init zsh)"
+
